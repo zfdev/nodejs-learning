@@ -1,0 +1,16 @@
+{
+  "name": "connect-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect": "^2.11.0",
+    "connect-redis": "^3.3.3"
+  }
+}

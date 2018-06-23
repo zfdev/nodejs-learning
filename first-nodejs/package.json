@@ -1,7 +1,7 @@
 {
     "name": "jason-node",
     "version": "0.0.1",
-    "main": "./index", //模块入口
+    "main": "./index",
     "dependencies": {
         "colors": "0.5.0"
     }
