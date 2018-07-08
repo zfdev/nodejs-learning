@@ -1,0 +1,10 @@
+<h1>Twitter results for <%= search %></h1>
+<% if (results.length) { %>
+    <ul>
+        <% for (var i=0; i<results.length; i++) {%>
+        <li><%= results[i].text %></li>
+        <% } %>
+    </ul>    
+<% } else { %>
+    <p>No results</p>
+<% } %>
