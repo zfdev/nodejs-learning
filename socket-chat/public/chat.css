@@ -1,0 +1,16 @@
+#chat{
+    display: none;
+}
+
+.confirmed::after{
+    color: #FFF;
+    content: "<";
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20px;    
+    display: inline-block;
+    margin-left: 5px;    
+}
